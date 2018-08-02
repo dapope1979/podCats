@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker run --name podCats -d -v $PWD:/var/www -p 8080:80 hitalos/laravel
